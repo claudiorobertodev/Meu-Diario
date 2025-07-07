@@ -1,0 +1,77 @@
+
+    body {
+      background-color: #121212;
+      color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+
+  body {
+  position: relative;
+  min-height: 100vh;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  z-index: 1;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* sobreposição escura */
+  z-index: -1;
+}
+
+
+
+    h1, h2, h3 {
+      color: #ffffff;
+      text-align: center;
+    }
+
+    p {
+      color: #ccc;
+      text-align: center;
+    }
+
+    /* Contêiner das entradas */
+    .container {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+ 
+
+
+    /* Botões de sentimento */
+    button {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #388e3c;
+    }
+
+    /* Rodapé */
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #777;
+    }
+
+    hr {
+      border: 1px solid #333;
+    }
+ 
